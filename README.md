@@ -23,5 +23,17 @@ This project uses Python, pandas, scikit-learn, seaborn, and matplotlib to:
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/YOUR_USERNAME/iris-flower-classification.git
+   (https://github.com/seshupavani/CodeAlpha_Task)
    cd iris-flower-classification
+   
+2. python -m venv .venv
+# Activate for Windows:
+.venv\Scripts\activate
+
+3.Install dependencies:
+pip install -r requirements.txt
+
+👤 Author
+Kotha Seshupavani
+https://github.com/seshupavani
+
