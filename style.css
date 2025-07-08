@@ -1,0 +1,15 @@
+body {
+    background: #f0f8ff;
+    padding-top: 50px;
+}
+
+.container {
+    max-width: 600px;
+}
+
+.results {
+    background: #e0ffe0;
+    border: 1px solid #b2ffb2;
+    padding: 15px;
+    border-radius: 5px;
+}
