@@ -9,7 +9,11 @@ This project uses Python, pandas, scikit-learn, seaborn, and matplotlib to:
 - 🤖 Train and evaluate Logistic Regression and K-Nearest Neighbors (KNN) classifiers
 - ✅ Print accuracy, classification reports, and show confusion matrices
 - 📈 Make predictions on example data
-
+It uses:
+- Python 🐍
+- Flask 🌐 (for the web server)
+- Scikit-Learn 🤖 (for the ML model)
+- Bootstrap 💅 (for simple styling)
 ---
 
 ## 📁 Dataset
@@ -32,6 +36,37 @@ This project uses Python, pandas, scikit-learn, seaborn, and matplotlib to:
 
 3.Install dependencies:
 pip install -r requirements.txt
+pip install flask scikit-learn pandas
+
+4.Run the app:
+python app.py
+
+📝 Example Input
+Field	Example
+Sepal Length (cm)	5.1
+Sepal Width (cm)	3.5
+Petal Length (cm)	1.4
+Petal Width (cm)	0.2
+
+Click Predict → It will show:
+
+Prediction:
+setosa
+
+Deploy
+For production, use a WSGI server like gunicorn and deploy to platforms like:
+
+Render
+
+Railway
+
+Heroku
+
+Example Procfile:
+web: gunicorn app:app
+
+📚 License
+Free to use for learning and practice!
 
 👤 Author
 Kotha Seshupavani
